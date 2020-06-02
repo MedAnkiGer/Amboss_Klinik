@@ -147,6 +147,20 @@
             "guid": "tXx+BA%tP$",
             "note_model_uuid": "02f9bb32-a4fd-11ea-9512-e86f38ca5952",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "neue {{c1::Karte}}",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "PS``|aHs6Y",
+            "note_model_uuid": "02f9bb32-a4fd-11ea-9512-e86f38ca5952",
+            "tags": []
         }
     ]
 }
