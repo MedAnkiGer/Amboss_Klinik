@@ -1,0 +1,151 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "3a68293b-a4f9-11ea-8d2d-e86f38ca5952",
+    "deck_config_uuid": "3a68293c-a4f9-11ea-82d9-e86f38ca5952",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "3a68293c-a4f9-11ea-82d9-e86f38ca5952",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 200,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": 1574803004471,
+    "name": "Project_Tryout",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3a685059-a4f9-11ea-8676-e86f38ca5952",
+            "css": "html { overflow: scroll; overflow-x: hidden; }\n\n\n#kard {\n    padding: 0px 0px;\n   %max-width: 700px;\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n\n.card {\n font-family: latin modern roman;\n font-size: 20px;\n text-align: center;\n color: #D7DEE9;\n background-color: #333B45;\n}\n\n\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: IndianRed !important ;}\n\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 18px; color:#D7DEE9; font-style: italic; }\n\n\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: MediumSeaGreen !important; } /* BOLD STYLE */\nu { text-decoration: none ; color: #FAB763; } /* UNDERLINE STYLE */  \ni  { font-style: normal; color: #5EB3B3; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n\n.mystyle1 {\ncolor: #4F5B66;\nfont-size: 13px;\nposition: relative;\n            }\n.mystyle1:hover {\n\tcolor: #C695C6;\n\tcursor: default;\n\t}\n\n\n.mystyle2 {\ncolor: #d4cfc9;\nfont-size: 13px;\nmargin: auto;\nborder: 2px solid #6898D0;\npadding: 5px;\nwidth: 100%;\nmax-width: 700px;\ntext-align: left;\n            }\n\nimg { width: auto; height: auto; max-width: None; max-height: 300}\nimg.mobile { max-width: 100%; max-height: 100%; }\n\n\n.button {\n  outline: 0;\n  background-color: #333B45; \n  border-radius: 0.12em;\n  border: 1px solid #4F5B66;\n  color: #6898D0;\n  padding: 0px 5px;\n  text-align: center;\n  display: inline-block;\n  font-size: 8px;\n  %box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);\n}\n.button:hover {\n  background-color: #D7DEE9;\n  color: #333B45;\n  cursor: default;\n\t}",
+            "flds": [
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Helvetica",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Link",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Zusatzinfos",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Projekt I am Boss",
+            "req": [],
+            "sortf": 0,
+            "tags": [
+                "",
+                "Tag",
+                "Tag055",
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div id=\"kard\">\n\n   {{cloze:Text}}\n  <div>&nbsp;</div><div>&nbsp;</div>\n    <div id='extra'>{{Extra}}</div>\n    <p>\n</div>\n\n<script>\nfunction showhide() {\n    if (document.getElementById('testdiv') .style.display=='none')\n        {var divsToHide = document.getElementsByClassName('showhide');\n            for(var i = 0; i < divsToHide.length; i++){\n            divsToHide[i] .style.display=''}}\n    else\n        {var divsToHide = document.getElementsByClassName('showhide');\n            for(var i = 0; i < divsToHide.length; i++){\n            divsToHide[i] .style.display='none'}}\n}\n\ndocument.onkeydown = function(evt) {\n    evt = evt || window.event;\n    if (evt.keyCode == 53) {\n        showhide();}\n    if (evt.keyCode == 96) {\n        showhide();}\n    if (evt.keyCode == 16) {\n        showhide();}\n};\n</script>\n\n<button class=\"button\" type=\"button\"  onclick=\"\n    showhide();\">\nMehr zu diesem Thema\n</button><div>&nbsp;</div>\n<div class=\"showhide\" style=\"display:none\">\n    <p>\n        <div id='extra'> <a href = {{Link}}>Amboss-Link</a></div>\n</div>  \n<div id=\"testdiv\" class=\"showhide\" style=\"display:none\">\n    <br>\n    {{#Zusatzinfos}}<div class=mystyle2>{{Zusatzinfos}}</div>{{/Zusatzinfos}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div id=\"kard\">\n\n{{cloze:Text}}\n</div>\n\n\n<br>\n<span class=\"timer\" id=\"s2\" style='font-size:16px; color: #A6ABB9;'></span>\n"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Who's the best? {{c1::xxx}}",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pV<vwcQ@4f",
+            "note_model_uuid": "3a685059-a4f9-11ea-8676-e86f38ca5952",
+            "tags": [
+                "Tag",
+                "Tag055"
+            ]
+        }
+    ]
+}
