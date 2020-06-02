@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "02f96d1e-a4fd-11ea-847c-e86f38ca5952",
-    "deck_config_uuid": "569e5725-a4fd-11ea-b733-e86f38ca5952",
+    "crowdanki_uuid": "91529e39-a500-11ea-ab2c-e86f38ca5952",
+    "deck_config_uuid": "aebbbccb-a501-11ea-aacf-e86f38ca5952",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "569e5725-a4fd-11ea-b733-e86f38ca5952",
+            "crowdanki_uuid": "aebbbccb-a501-11ea-aacf-e86f38ca5952",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -55,8 +55,7 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
-    "mid": 1574803004471,
-    "name": "Project_Tryout",
+    "name": "Amboss_Klinik",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -103,13 +102,18 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Projekt I am Boss",
-            "req": [],
+            "name": "Projekt I am Boss-ddcf1",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
             "sortf": 0,
             "tags": [
-                "",
-                "Tag",
-                "Tag055",
                 ""
             ],
             "tmpls": [
@@ -134,18 +138,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Who's the best? {{c1::xxx}}",
+                "Who's better? {{c1::Crowd}}",
                 "",
                 "",
                 ""
             ],
             "flags": 0,
-            "guid": "pV<vwcQ@4f",
+            "guid": "tXx+BA%tP$",
             "note_model_uuid": "02f9bb32-a4fd-11ea-9512-e86f38ca5952",
-            "tags": [
-                "Tag",
-                "Tag055"
-            ]
+            "tags": []
         }
     ]
 }
