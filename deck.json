@@ -54,9 +54,124 @@
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
-    "media_files": [],
+    "media_files": [
+        "paste-2018634629602.jpg"
+    ],
     "name": "Amboss_Klinik",
     "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4bbaf45e-af15-11ea-abac-9cb6d089092f",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n\n.back {\n/* auskommentiert, hier kann man ein Bild einfügen im Ordner C:\\Users\\Nikos\\Documents\\Anki\\Benutzer 1\\collection.media\n   name des Bildes mit _ am Anfang als Datei benennen!\n    background: url(_bildname.jpg);\n    background-size: contain;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-color: green;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1'>\n\n*/\n}\n\n.grün {\n    background-color: green;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.rot {\n    background-color: red;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.blau {\n    background-color: blue;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.gelb {\n    background-color: yellow;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Gegenrichtung hinzufügen",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Hintergrundfarbe: englische Namen oder HTML-Code einfügen",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "kompletter Dateiname Hintergrundbild",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath, mathtools, nicefrac}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Farbig Einfach (eine oder zwei Richtungen)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "M3.2",
+                "Uro/Nephro"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "\n\n{{FrontSide}}\n\n<hr id=answer>\n\n\n{{Rückseite}}\n\n\n\n{{#Hintergrundfarbe: englische Namen oder HTML-Code einfügen}}\n<div style='background-color: {{Hintergrundfarbe: englische Namen oder HTML-Code einfügen}};\n    opacity: {{opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3}}'></div>\n{{/Hintergrundfarbe: englische Namen oder HTML-Code einfügen}}\n\n\n\n{{#kompletter Dateiname Hintergrundbild}}\n<div style='background: url({{kompletter Dateiname Hintergrundbild}});\n    background-size: contain;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-color: {{Hintergrundfarbe: englische Namen oder HTML-Code einfügen}};\n    opacity: {{opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3}};\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1'></div>\n{{/kompletter Dateiname Hintergrundbild}}\n\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Vorderseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 2",
+                    "ord": 1,
+                    "qfmt": "{{#Gegenrichtung hinzufügen}}{{Rückseite}}{{/Gegenrichtung hinzufügen}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "02f9bb32-a4fd-11ea-9512-e86f38ca5952",
@@ -134,6 +249,24 @@
         }
     ],
     "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wieso macht <i>Vibrio fischeri </i>quorum sensing?",
+                "Damit sie Bioluminiszenz in Tieren machen können und dabei cool aussehen können.&nbsp;<div><br /></div><div><img src=\"paste-2018634629602.jpg\" /></div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vE$O]+ph]v",
+            "note_model_uuid": "4bbaf45e-af15-11ea-abac-9cb6d089092f",
+            "tags": [
+                "Bakteriologie"
+            ]
+        },
         {
             "__type__": "Note",
             "data": "",
