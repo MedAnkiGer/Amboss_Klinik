@@ -12,3 +12,8 @@ How to collaboratively improve the deck? https://awesomeopensource.com/project/S
 4. Check if the folder was actually created and if there are any files inside ;)
 5. okay, now create your own personal branch, This branch will contain your local changes until it is merged into the master branch. In order to do this type in `git checkout -b <your-branch-name>`. Now you can make changes. 
 6. 
+
+
+# If you work on an extra branch, make sure to put all changes into the master branch => then push
+git checkout master
+git merge p/3
