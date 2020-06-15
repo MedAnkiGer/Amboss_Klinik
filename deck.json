@@ -57,121 +57,9 @@
     "media_files": [
         "paste-2018634629602.jpg"
     ],
+    "mid": 1574803004471,
     "name": "Amboss_Klinik",
     "note_models": [
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "4bbaf45e-af15-11ea-abac-9cb6d089092f",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n\n.back {\n/* auskommentiert, hier kann man ein Bild einfügen im Ordner C:\\Users\\Nikos\\Documents\\Anki\\Benutzer 1\\collection.media\n   name des Bildes mit _ am Anfang als Datei benennen!\n    background: url(_bildname.jpg);\n    background-size: contain;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-color: green;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1'>\n\n*/\n}\n\n.grün {\n    background-color: green;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.rot {\n    background-color: red;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.blau {\n    background-color: blue;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.gelb {\n    background-color: yellow;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Vorderseite",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Rückseite",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Gegenrichtung hinzufügen",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Hintergrundfarbe: englische Namen oder HTML-Code einfügen",
-                    "ord": 3,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "kompletter Dateiname Hintergrundbild",
-                    "ord": 4,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3",
-                    "ord": 5,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath, mathtools, nicefrac}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Farbig Einfach (eine oder zwei Richtungen)",
-            "req": [
-                [
-                    0,
-                    "all",
-                    [
-                        0
-                    ]
-                ],
-                [
-                    1,
-                    "all",
-                    [
-                        1,
-                        2
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [
-                "M3.2",
-                "Uro/Nephro"
-            ],
-            "tmpls": [
-                {
-                    "afmt": "\n\n{{FrontSide}}\n\n<hr id=answer>\n\n\n{{Rückseite}}\n\n\n\n{{#Hintergrundfarbe: englische Namen oder HTML-Code einfügen}}\n<div style='background-color: {{Hintergrundfarbe: englische Namen oder HTML-Code einfügen}};\n    opacity: {{opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3}}'></div>\n{{/Hintergrundfarbe: englische Namen oder HTML-Code einfügen}}\n\n\n\n{{#kompletter Dateiname Hintergrundbild}}\n<div style='background: url({{kompletter Dateiname Hintergrundbild}});\n    background-size: contain;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-color: {{Hintergrundfarbe: englische Namen oder HTML-Code einfügen}};\n    opacity: {{opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3}};\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1'></div>\n{{/kompletter Dateiname Hintergrundbild}}\n\n",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Karte 1",
-                    "ord": 0,
-                    "qfmt": "{{Vorderseite}}\n\n\n\n\n\n\n\n\n\n\n\n\n"
-                },
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Vorderseite}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Karte 2",
-                    "ord": 1,
-                    "qfmt": "{{#Gegenrichtung hinzufügen}}{{Rückseite}}{{/Gegenrichtung hinzufügen}}"
-                }
-            ],
-            "type": 0,
-            "vers": []
-        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "02f9bb32-a4fd-11ea-9512-e86f38ca5952",
@@ -246,27 +134,197 @@
             ],
             "type": 1,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4bbaf45e-af15-11ea-abac-9cb6d089092f",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n\n.back {\n/* auskommentiert, hier kann man ein Bild einfügen im Ordner C:\\Users\\Nikos\\Documents\\Anki\\Benutzer 1\\collection.media\n   name des Bildes mit _ am Anfang als Datei benennen!\n    background: url(_bildname.jpg);\n    background-size: contain;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-color: green;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1'>\n\n*/\n}\n\n.grün {\n    background-color: green;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.rot {\n    background-color: red;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.blau {\n    background-color: blue;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n.gelb {\n    background-color: yellow;\n    opacity: 0.18;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1;     \n}\n\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Gegenrichtung hinzufügen",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Hintergrundfarbe: englische Namen oder HTML-Code einfügen",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "kompletter Dateiname Hintergrundbild",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath, mathtools, nicefrac}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Farbig Einfach (eine oder zwei Richtungen)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "M3.2",
+                "Uro/Nephro"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "\n\n{{FrontSide}}\n\n<hr id=answer>\n\n\n{{Rückseite}}\n\n\n\n{{#Hintergrundfarbe: englische Namen oder HTML-Code einfügen}}\n<div style='background-color: {{Hintergrundfarbe: englische Namen oder HTML-Code einfügen}};\n    opacity: {{opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3}}'></div>\n{{/Hintergrundfarbe: englische Namen oder HTML-Code einfügen}}\n\n\n\n{{#kompletter Dateiname Hintergrundbild}}\n<div style='background: url({{kompletter Dateiname Hintergrundbild}});\n    background-size: contain;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-color: {{Hintergrundfarbe: englische Namen oder HTML-Code einfügen}};\n    opacity: {{opacity: 1 ist volle Deckkraft, 0 ist durchsichtig, Angaben immer mit Punkt, also 0.3}};\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: -1'></div>\n{{/kompletter Dateiname Hintergrundbild}}\n\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Vorderseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 2",
+                    "ord": 1,
+                    "qfmt": "{{#Gegenrichtung hinzufügen}}{{Rückseite}}{{/Gegenrichtung hinzufügen}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b19b0658-af1c-11ea-b44a-e86f38ca5952",
+            "css": "html { overflow: scroll; overflow-x: hidden; }\n\n\n#kard {\n    padding: 0px 0px;\n   %max-width: 700px;\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n\n.card {\n font-family: latin modern roman;\n font-size: 20px;\n text-align: center;\n color: #D7DEE9;\n background-color: #333B45;\n}\n\n\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: IndianRed !important ;}\n\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 18px; color:#D7DEE9; font-style: italic; }\n\n\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: MediumSeaGreen !important; } /* BOLD STYLE */\nu { text-decoration: none ; color: #FAB763; } /* UNDERLINE STYLE */  \ni  { font-style: normal; color: #5EB3B3; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n\n.mystyle1 {\ncolor: #4F5B66;\nfont-size: 13px;\nposition: relative;\n            }\n.mystyle1:hover {\n\tcolor: #C695C6;\n\tcursor: default;\n\t}\n\n\n.mystyle2 {\ncolor: #d4cfc9;\nfont-size: 13px;\nmargin: auto;\nborder: 2px solid #6898D0;\npadding: 5px;\nwidth: 100%;\nmax-width: 700px;\ntext-align: left;\n            }\n\nimg { max-width: 750px; max-height: none}\nimg.mobile { max-width: 100%; max-height: 100%; }\n\n\n.button {\n  outline: 0;\n  background-color: #333B45; \n  border-radius: 0.12em;\n  border: 1px solid #4F5B66;\n  color: #6898D0;\n  padding: 0px 5px;\n  text-align: center;\n  display: inline-block;\n  font-size: 8px;\n  %box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);\n}\n.button:hover {\n  background-color: #D7DEE9;\n  color: #333B45;\n  cursor: default;\n\t}",
+            "flds": [
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Helvetica",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Link",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Zusatzinfos",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Projekt I am Boss",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div id=\"kard\">\n\n   {{cloze:Text}}\n  <div>&nbsp;</div><div>&nbsp;</div>\n    <div id='extra'>{{Extra}}</div>\n    <p>\n</div>\n\n<script>\nfunction showhide() {\n    if (document.getElementById('testdiv') .style.display=='none')\n        {var divsToHide = document.getElementsByClassName('showhide');\n            for(var i = 0; i < divsToHide.length; i++){\n            divsToHide[i] .style.display=''}}\n    else\n        {var divsToHide = document.getElementsByClassName('showhide');\n            for(var i = 0; i < divsToHide.length; i++){\n            divsToHide[i] .style.display='none'}}\n}\n\ndocument.onkeydown = function(evt) {\n    evt = evt || window.event;\n    if (evt.keyCode == 53) {\n        showhide();}\n    if (evt.keyCode == 96) {\n        showhide();}\n    if (evt.keyCode == 16) {\n        showhide();}\n};\n</script>\n\n<button class=\"button\" type=\"button\"  onclick=\"\n    showhide();\">\nMehr zu diesem Thema\n</button><div>&nbsp;</div>\n<div class=\"showhide\" style=\"display:none\">\n    <p>\n        <div id='extra'> <a href = {{Link}}>Amboss-Link</a></div>\n</div>  \n<div id=\"testdiv\" class=\"showhide\" style=\"display:none\">\n    <br>\n    {{#Zusatzinfos}}<div class=mystyle2>{{Zusatzinfos}}</div>{{/Zusatzinfos}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div id=\"kard\">\n\n{{cloze:Text}}\n</div>\n\n\n<br>\n<span class=\"timer\" id=\"s2\" style='font-size:16px; color: #A6ABB9;'></span>\n"
+                }
+            ],
+            "type": 1,
+            "vers": []
         }
     ],
     "notes": [
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Wieso macht <i>Vibrio fischeri </i>quorum sensing?",
-                "Damit sie Bioluminiszenz in Tieren machen können und dabei cool aussehen können.&nbsp;<div><br /></div><div><img src=\"paste-2018634629602.jpg\" /></div>",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "flags": 0,
-            "guid": "vE$O]+ph]v",
-            "note_model_uuid": "4bbaf45e-af15-11ea-abac-9cb6d089092f",
-            "tags": [
-                "Bakteriologie"
-            ]
-        },
         {
             "__type__": "Note",
             "data": "",
@@ -293,6 +351,38 @@
             "flags": 0,
             "guid": "PS``|aHs6Y",
             "note_model_uuid": "02f9bb32-a4fd-11ea-9512-e86f38ca5952",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wieso macht <i>Vibrio fischeri </i>quorum sensing?",
+                "Damit sie Bioluminiszenz in Tieren machen können und dabei cool aussehen können.&nbsp;<div><br /></div><div><img src=\"paste-2018634629602.jpg\" /></div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vE$O]+ph]v",
+            "note_model_uuid": "4bbaf45e-af15-11ea-abac-9cb6d089092f",
+            "tags": [
+                "Bakteriologie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "yo {{c1::yo}}",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x~n&;<|ZzF",
+            "note_model_uuid": "b19b0658-af1c-11ea-b44a-e86f38ca5952",
             "tags": []
         }
     ]
